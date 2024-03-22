@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d8c7aa4-f7aa-4f15-b61f-6c2400dabcde": {
+      "ProjectGuid": "0d8c7aa4-f7aa-4f15-b61f-6c2400dabcde",
+      "DisplayName": "LINQ",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

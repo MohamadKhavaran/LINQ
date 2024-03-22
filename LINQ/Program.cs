@@ -31,6 +31,13 @@ namespace LINQ
             var R12 = (from a in Arr select a).Max();
             var R13 = (from a in Arr select a).Min();
             var R14 = (from a in Arr select a).Sum();
+            List<string> Student = new List<string>();
+            Student.Add("amin");
+            Student.Add("Milad");
+            Student.Add("Masoud");
+            var R15 = (from a in Student select a.Contains("m")).ToList();
+            var R16 = (from a in Student select a.StartsWith("M")).ToList();
+            var R17 = (from a in Student select a.EndsWith("d")).ToList();
             Console.ReadKey();
         }
     }
